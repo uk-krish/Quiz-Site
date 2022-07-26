@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="homescreen">
+        <nav>
+            <a href="index.html"><img src="Image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li class="anim"><a href="#">HOME</a></li>
+                    <li class="anim"><a href="#">MY PROFILE</a></li>
+                    <li class="anim"><a href="#">DASH BOARD</a></li>
+                    <li class="anim"><a href="#">BLOG</a></li>
+                    <li class="anim"><a href="#">CONTACT</a></li>
+                    <li ><a href="#"><button class="logout">Log out</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="showing">
+        <h1>HI!</h1>
+    <h1>Welcome To NoobInfo Quiz Click below start button to the quiz </h1>
+    </div>
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="line"></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="line1"></div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">NoobInfo Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn"><p>Next Question</p></button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <a href="#"><button class="quit">Quit Quiz</button></a>
+        </div>
+    </div>
+
+
+<script src="app.js"></script>
+<script src="questions.js"></script>
+</body>
+</html>
